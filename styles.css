@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    body: 100vh
 }
 
 .navbar {
@@ -79,5 +80,25 @@ main h1 {
     font-weight: 800;
     font-size: 2.25rem;
     text-align: center;
-    margin: 2rem auto;
+    margin: 3rem auto;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+div.logos img {
+    height: 20vh;
+}
+
+.logoImages {
+    text-align: center;
+    width: 10%;
+}
+
+main {
+    margin-bottom: 5%;
 }
