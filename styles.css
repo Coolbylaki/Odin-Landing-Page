@@ -102,3 +102,28 @@ div.logos img {
 main {
     margin-bottom: 5%;
 }
+
+article {
+    background-color: #E5E7EB;
+}
+
+.quote h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.quote p {
+    font-size: 2.25rem;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.quote {
+    width: 50%;
+    padding: 5rem;
+    margin: 0 auto;
+}
