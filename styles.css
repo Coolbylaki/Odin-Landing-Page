@@ -3,7 +3,6 @@ body {
 }
 
 .navbar {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding: 0 10rem;
@@ -25,4 +24,52 @@ a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 1.125rem;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+}
+
+.SignUp {
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1rem;
+}
+
+.logoImage img {
+    width: 80vh;
+    height: 30vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    gap: 3rem
+}
+
+.headerTitle {
+    text-align: left;
+    width: 30%;
+}
+
+.headerTitle h1 {
+    color: #F9FAF8;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.headerTitle p {
+    color: #E5E7EB;
+    font-size: 1.5rem;
+    margin: 1rem auto;
 }
