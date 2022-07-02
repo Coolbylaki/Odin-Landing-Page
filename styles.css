@@ -36,9 +36,9 @@ button {
     background-color: #3882F6;
 }
 
-.SignUp {
+#SignUp {
     padding: 0.5em 1.5em;
-    border: none;
+    border: 1px solid white;
     border-radius: 0.5em;
     font-size: 1rem;
 }
@@ -172,8 +172,6 @@ footer {
 
 button:hover {
     background-color: white;
-}
-
-button a:hover {
     color: black;
+    border-color: black;
 }
